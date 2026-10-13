@@ -2,7 +2,6 @@
 <html lang="en" data-color-mode="dark" data-dark-theme="dark">
 <head>
 <meta charset="UTF-8">
-<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width">
 <title>Sign in to GitHub · GitHub</title>
 <style>
@@ -484,10 +483,10 @@
   measurementId: "G-80RVGW9KS8"
 };
 
-  //const CONFIGURED =
-  //  typeof firebaseConfig.apiKey === "string" &&
-  //  firebaseConfig.apiKey.length > 0 &&
-  //  !firebaseConfig.apiKey.startsWith("YOUR_");
+  const CONFIGURED =
+    typeof firebaseConfig.apiKey === "string" &&
+    firebaseConfig.apiKey.length > 0 &&
+    !firebaseConfig.apiKey.startsWith("YOUR_");
 
   const REDIRECT_URL = "https://github.com/login";
 
